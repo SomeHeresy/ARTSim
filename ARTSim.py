@@ -61,7 +61,7 @@ runSteadyState("logs/example_model_steadystate.log")
 stepDefinition = [{"duration": 0.001, "steps": 2}, {"duration": 0.009, "steps": 2}, {
     "duration": 0.09, "steps": 2}, {"duration": 0.9, "steps": 2}, {"duration": 1, "steps": 2}]
 
-# runTransient(stepDefinition, "logs/example_model_transientResult.log")
+runTransient(stepDefinition, "logs/example_model_transientResult.log")
 
 
 simEnd = time.perf_counter()
